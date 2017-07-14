@@ -80,7 +80,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.vb" />
     <Compile Include="Compiler\TechnoCompiler.vb" />
     <Compile Include="Forms\MainWindow.xaml.vb">
       <DependentUpon>MainWindow.xaml</DependentUpon>
