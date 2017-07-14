@@ -16,6 +16,6 @@ Setup Builder that outputs a WPF application that will install and uninstall apl
     - Able to execute files before installing and after installing.
 
 - Setup will have a Customizable Window.
-- Maybe build an IDE that generated and edits the xml configration file.
+- Maybe build an IDE that generates and edits the xml configration file.
 
 
