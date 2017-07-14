@@ -1,0 +1,17 @@
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\bin\Debug\TechnoSetupLib.dll
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\bin\Debug\TechnoSetupLib.pdb
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\bin\Debug\TechnoSetupLib.xml
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\obj\Debug\TechnoSetupLib.Resources.resources
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\obj\Debug\TechnoSetupLib.vbproj.GenerateResource.Cache
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\obj\Debug\TechnoSetupLib.dll
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\obj\Debug\TechnoSetupLib.xml
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\obj\Debug\TechnoSetupLib.pdb
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\obj\Debug\Forms\MainWindow.g.vb
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\obj\Debug\TechnoSetupLib_MarkupCompile.cache
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\obj\Debug\Forms\MainWindow.baml
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\obj\Debug\TechnoSetupLib.g.resources
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\obj\Debug\Themes\ButtonStyle.baml
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\obj\Debug\Themes\ControlsTheme.baml
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\obj\Debug\GeneratedInternalTypeHelper.g.vb
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\obj\Debug\TechnoSetupLib_MarkupCompile.lref
+D:\Visual\GitHub\TechnoSetupLib\TechnoSetupLib\obj\Debug\TechnoSetupLib.vbprojResolveAssemblyReference.cache

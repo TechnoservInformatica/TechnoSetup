@@ -1,0 +1,211 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TechnoSetupLib
+</name>
+</assembly>
+<members>
+<member name="T:TechnoSetupLib.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TechnoSetupLib.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TechnoSetupLib.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:TechnoSetupLib.TechnoCompiler.FnCompileUninstaller(TechnoSetupLib.SetupUnisntallModel,System.Boolean,TechnoSetupLib.SetupModelSubClasses.enTargetCPU)">
+ <summary>
+ After Installing complete, uninstaller will be generated
+ </summary>
+ <param name="Config"></param>
+ <param name="AllowDebug"></param>
+ <param name="TargetCPU"></param>
+ <returns></returns>
+</member>
+<member name="M:TechnoSetupLib.TechnoCompiler.FnGetCompilerCode(System.Boolean,TechnoSetupLib.SetupInstallModel)">
+ <summary>
+ Returns the code that will be compiled for application Startup
+ </summary>
+ <param name="bForInstaller">True for Installer, False for Uninstaller</param>
+ <returns></returns>
+</member>
+<member name="T:TechnoSetupLib.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:TechnoSetupLib.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="P:TechnoSetupLib.mShared.MyMainWindow">
+ <summary>
+ Application MainWindow
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.mShared.ConsoleMode">
+ <summary>
+ Activate when on a console app, so messages are printed to console
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.mShared.DebugGeneratedEXE">
+ <summary>
+ If activated after compiling the Generated Installer and Uninstaller will be debugged
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.mShared.IsInstalling">
+ <summary>
+ True when App Running is an Installer, False when App Running is an Uninstaller
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.mShared.AutoExit">
+ <summary>
+ After Compiling Application it wont trigger a Console.ReadLine(), in case of ConsoleMode
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:TechnoSetupLib.mShared.acStartApp(System.Boolean)">
+ <summary>
+ Starts Application
+ </summary>
+</member>
+<member name="P:TechnoSetupLib.SetupBaseModel.AppName">
+ <summary>
+ Setup Name, if application is registered on Windows registry it will present this Name
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.SetupBaseModel.AppVersion">
+ <summary>
+ Version of the Application, alphanumeric, if application is registered on Windows registry it will present this value on the Version column
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.SetupBaseModel.AppIcon">
+ <summary>
+ Application ICON
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.SetupBaseModel.RequiresAdministrator">
+ <summary>
+ The generated Setup Output will request to Run as an Administrator
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.SetupBaseModel.Group">
+ <summary>
+ When Adding applications ShortCuts to the SpecialFolder.CommonStartMenu, the folder will be created as SpecialFolder.CommonStartMenu\VALUE OF THIS FIELD
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.SetupBaseModel.SetupVersion">
+ <summary>
+ Setup Version, will be on the AssemblyVersion and AssemblyFileVersion Attributes
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.SetupBaseModel.Tags">
+ <summary>
+ Can save Tags, for Example {App}, whenever this tag is used on the XML it will be converted on the value presented on the value corresponding to the Key
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:TechnoSetupLib.SetupConfigModel">
+ <summary>
+ Setup Configuration, will be Saved as an XML, can be manually edited.
+ </summary>
+</member>
+<member name="P:TechnoSetupLib.SetupConfigModel.TargetCPU">
+ <summary>
+ OutPut Setup TargetCPU
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.SetupConfigModel.OutPutFile">
+ <summary>
+ Name of The OutputFile, must be an EXECUTABLE (.exe)
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:TechnoSetupLib.SetupInstallModel">
+ <summary>
+ Constains the Installer configuration
+ </summary>
+</member>
+<member name="P:TechnoSetupLib.SetupInstallModel.COMRegister">
+ <summary>
+ Will Contain the Path of the files that should Register with regsvr32.exe
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.SetupInstallModel.GACRegister">
+ <summary>
+ Will Contain the Path of the files that should Register with System.EnterpriseServices.Internal.Publish GACInstall
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.SetupInstallModel.TargetCPU">
+ <summary>
+ OutPut Setup TargetCPU
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.SetupModelSubClasses.TechnoFilesInstall.File">
+ <summary>
+ Zip file Number that contains Files
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:TechnoSetupLib.SetupModelSubClasses.TechnoFilesInstall.Dirs">
+ <summary>
+ Target Directories Where the Files will be Extracted To
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:TechnoSetupLib.XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+<summary>
+GeneratedInternalTypeHelper
+</summary>
+</member>
+<member name="M:TechnoSetupLib.XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+<summary>
+CreateInstance
+</summary>
+</member>
+<member name="M:TechnoSetupLib.XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+<summary>
+GetPropertyValue
+</summary>
+</member>
+<member name="M:TechnoSetupLib.XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+<summary>
+SetPropertyValue
+</summary>
+</member>
+<member name="M:TechnoSetupLib.XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+<summary>
+CreateDelegate
+</summary>
+</member>
+<member name="M:TechnoSetupLib.XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+<summary>
+AddEventHandler
+</summary>
+</member>
+</members>
+</doc>
